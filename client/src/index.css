@@ -1,6 +1,22 @@
+:root {
+  --ink: #1f1235;
+
+  --todo: #f2b8e0;
+  --todo-soft: #f8d3ec;
+  --todo-edge: #e873c0;
+
+  --wip: #f8d49a;
+  --wip-soft: #fbebd5;
+  --wip-edge: #f0a060;
+
+  --done: #dce79a;
+  --done-soft: #f7fdd0;
+  --done-edge: #98d466;
+}
+
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
   background: #e5e1ee;
-  color: #1f1235;
+  color: var(--ink);
 }
