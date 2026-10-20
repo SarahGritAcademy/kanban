@@ -117,3 +117,82 @@ main {
   --btn: var(--done);
   --btn-edge: var(--done-edge);
 }
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.add-form,
+.search-bar {
+  flex: 1 1 18rem;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+}
+
+.add-form {
+  background: #b196f0;
+  border: 1px solid #7a58c0;
+  box-shadow: 3px 3px 0 #7a58c0;
+}
+
+.search-bar {
+  background: #e5e1ee;
+  border: 2px solid var(--ink);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.add-form label,
+.search-bar label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.field-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.toolbar input {
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 0.5rem 0.6rem;
+  font: inherit;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid var(--ink);
+  border-radius: 8px;
+}
+
+.field-row input {
+  flex: 1;
+}
+
+.search-bar input {
+  width: 100%;
+}
+
+.toolbar button {
+  padding: 0.5rem 1rem;
+  font: inherit;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid var(--ink);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.toolbar button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.toolbar input:focus-visible,
+.toolbar button:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
