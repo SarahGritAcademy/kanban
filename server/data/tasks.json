@@ -1,0 +1,6 @@
+[
+  { "id": "1", "title": "Skissa wireframes", "status": "done" },
+  { "id": "2", "title": "Bygga backend", "status": "wip" },
+  { "id": "3", "title": "Skriva tester", "status": "todo" },
+  { "id": "4", "title": "Driftsätta appen", "status": "todo" }
+]
